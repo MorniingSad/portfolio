@@ -1,0 +1,60 @@
+.apresentacao_conteudo_titulo {
+    font-size: 2.00rem;
+    font-family: "SF Kingston", sans-serif;
+    text-align: left;
+    text-align: left;
+    max-width: 500px;
+    text-align: left; 
+    max-width: 500px;
+    color: #fffbfbe6;
+    padding: 2px 2px 1px 70px ;
+    animation-name:tracking-in-contract-bck-top ;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 1 ;
+ }
+ 
+ 
+  .apresentacao_conteudo_texto {
+    padding: 6% 6% ;
+    display: flex;
+    font-size: 1.20rem;
+    gap: 80px;
+    color: #fffbfbe6;
+    font-family: "DearPonyPersonalUse", sans-serif;
+    animation-name:tracking-in-contract-bck-top ;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1 ;
+  }
+ 
+  .apresentacao_links {
+    display: flex;
+    flex-direction: center ;
+    justify-content: space-between;
+    align-items:start;
+    gap: 80px;
+    color: #fffbfbe6;
+    padding: 8% 6% ;
+    font-size: 26px;
+  }
+ 
+  
+  .apresentacao_links_navegacao { 
+    display: flex;
+    justify-content:center ;
+    gap: 5px;
+    border: 6px double #fffbfbe6;
+    width: 10%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 4px;
+    text-decoration: none;
+    color: #874CCC;
+    font-family: "DALMANTI", serif; 
+    animation-name: vibrate-1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite ;
+  }

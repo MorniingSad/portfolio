@@ -1,0 +1,98 @@
+.projetos__titulo {
+   text-align: center;
+   padding: 50px;
+   font-size: 50px;
+}
+
+.titulo {
+   padding: 20px;
+   color: #af1e05;
+   font-size: 35px;
+}
+
+.paragrafo {
+   padding: 15px;
+   font-size: 23px;
+   color: #0b040c;
+}
+
+.projetos__descricao {
+   background: linear-gradient(135deg, #080808, #a4a4a7);
+   background-size: 280% 70%;
+   animation: gradientMove 10s ease infinite;
+   height: 100vh; /* Ocupa 100% da altura da tela */
+   display: flex;
+   flex-direction: column;
+   justify-content: center; /* Centraliza o conteúdo verticalmente */
+   align-items: center; /* Centraliza o conteúdo horizontalmente */
+   padding: 0; /* Remove qualquer padding extra */
+   margin: 0; /* Remove qualquer margem extra */
+   box-sizing: border-box;
+}
+
+@keyframes gradientMove {
+   0% { background-position: 0% 50%; }
+   50% { background-position: 100% 50%; }
+   100% { background-position: 0% 50%; }
+}
+
+
+.carousel-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   width: 80%; /* Ajusta a largura para centralizar */
+   margin: 0 auto; /* Centraliza o container */
+   
+}
+
+.carousel-slide {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+   width: 100%;
+}
+
+.project {
+   min-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #0e0c0c4f; /* Fundo padrão */
+   height: 300px;
+   text-align: center;
+}
+
+
+
+.project-content {
+   padding: 20px;
+}
+
+
+button {
+   background-color: #4a19d2;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0da114;
+}
+
+.carousel-navigation {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 20px auto;
+}
+
+.carousel-navigation button {
+   transition: transform 0.3s ease;
+}
+
+.carousel-navigation button:hover {
+   transform: scale(1.1); /* Leve aumento */
+}

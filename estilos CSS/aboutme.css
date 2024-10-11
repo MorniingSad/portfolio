@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #b9b3b3e6;
+  }
+ 
+  .apresentacao_titulo_about {
+    color: #181717e6;
+    font-size: 2.00rem;
+    font-family: "SF Kingston", sans-serif;
+    text-align: center;
+    padding: 6em 15px 10px 30px;  
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-iteration-count: 1 ;
+    animation-delay: 1s; 
+  }
+ 
+  .sobre_mim{
+    font-family: "presley",sans-serif;
+    color: #222831;
+    text-align: center ;
+    font-size: 25px;
+    max-width: 650px;
+    padding: 5em 30px 5em 30px ;
+    animation-name:focus-in-expand-fwd;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1 ;
+   
+ }
+ 
+ 
+ .foto_camisa_preta{
+    width: 40%;
+    height: 30%;
+    justify-content:right;
+    padding: 6em 50px 5em 30px; 
+    animation-name: swirl-in-right-fwd;
+    animation-duration: 2s;
+    animation-delay: 3s;
+ }

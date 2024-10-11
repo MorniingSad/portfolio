@@ -1,0 +1,32 @@
+.cabecalho_menu {
+    display: flex;
+    gap: 20px;
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-iteration-count: 1 ;
+    animation-delay: 1s;
+    
+}
+ 
+.cabecalho_menu_link{  
+    padding: 4% 4% ;
+    display: flex;
+    font-size: 1.50rem;
+    font-weight: 400;
+    color: #fffbfbe6;
+    text-decoration: none;
+    font-family: "SF Kingston", serif;
+ }
+ 
+ .logotipo{
+    max-width: 25%;
+    max-height: 25%;
+    justify-content:right;
+    margin: 110px 5px 8px 8px;
+    animation-name:rotate-in-ver;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count:infinite  ;
+ 
+ }
+ 
